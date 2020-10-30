@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Sydney, Australia - Offisiell reiseguide</title>
+	<link rel="stylesheet" type="text/css" href="freakyfriday.css">
+</head>
+<body>
+
+	<div class="scrollmenu">
+<a href="index.html">Home</a>
+  <a href="attraksjoner.html">Attractions</a>
+  <a href="overnatting.html">Accommodation</a>
+  <a href="fakta.html">Facts</a>
+</div>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="Sydneyharbour.jpg" style="width:100%; height:550px;">
+  <div class="text">SYDNEY HARBOUR</div>
+</div>
+
+
+<div class="mySlides fade">
+  <img src="bondi.jpg" style="width:100%; height:550px;">
+  <div class="text">BONDI</div>
+</div>
+
+
+<div class="mySlides fade">
+  <img src="westfield.jpg" style="width:100%; height:550px;">
+  <div class="text">WESTFIELD CENTER</div>
+</div>
+</div>
+<script type="text/javascript">
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); 
+}
+</script>
+
+<h2>PLACES TO VISIT IN SYDNEY</h2>
+<div class="tekstattraksjoner">
+<p>En av de vakreste byene i verden, byen stråler fra den glitrende havnen til ikoniske Bondi Beach i øst, Golden Palm Beach i nord, eventyr hovedstad i vest og Australias eldste nasjonalpark i sør. Operahuset i Sydney ligger nær Circular Quay.</p>
+</div>
+
+<div id="hjemboks">
+<img src="sydneyheader-kopi.jpg" id="header">
+
+<img src="lunapark.jpg"	id="park">
+
+<img src="https://www.travelyourself.ca/wp-content/uploads/2014/01/sydney-shangri-la.jpg" id="hotel">
+
+<img src="Bondi.jpg" id="Bondi">
+
+<img src="tarongazoo.jpg" id="zoo">
+</div>
+
+<a href="attraksjoner.html"><button>Read more</button></a>
+
+<div class="footer">
+    <center>Copyright designed and developed by Zineb Baazi</center>
+  </div>
+	
+
+</body>
+</html>
