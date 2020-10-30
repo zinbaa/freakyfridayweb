@@ -166,16 +166,24 @@ h3 {
   font-size: 20px;
 }
 
-button {
+.button {
 	background-color: #008CBA;
   font-family: "Poppins",sans-serif;;
-  color: white;
+  color: black;
   text-decoration: none;
-  width: 100px;
+  display: block;
+  width: 40px;
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 300px;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
   margin-top: 20px;
   
 
