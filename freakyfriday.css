@@ -3,7 +3,6 @@ html, body {
  height:100%;
  padding:0;
  margin:0;
-
 }
 
 div.scrollmenu {
@@ -14,6 +13,8 @@ div.scrollmenu {
   width: 100%;
   margin: 0;
   padding: 0;
+   z-index: 1;
+   
   
 }
 
@@ -23,7 +24,6 @@ div.scrollmenu {
   top: 0;
   width: 100%;
   height: 90px;
-
   }
 
   div.scrollmenu a {
@@ -49,15 +49,32 @@ div.scrollmenu a:hover {
   
 }
 
-.text {
+.text1 {
+  color: white;
+  font-family: "Poppins",sans-serif;;
+  font-size: 60px;
+  position: absolute;
+  text-align: center;
+}
+
+.text2 {
 color: white;
   font-family: "Poppins",sans-serif;;
   font-size: 60px;
   position: absolute;
-  bottom: 200px;
-  left: 16px;
   
+  text-align: center;
+  
+}
 
+.text3 {
+color: white;
+  font-family: "Poppins",sans-serif;;
+  font-size: 60px;
+  position: absolute;
+  
+  text-align: center;
+   
 }
 
 h2 {

@@ -15,40 +15,24 @@
 </div>
 
 <div class="slideshow-container">
+
 <div class="mySlides fade">
+  <div class="text1">SYDNEY HARBOUR</div>
   <img src="Sydneyharbour.jpg" style="width:100%; height:550px;">
-  <div class="text">SYDNEY HARBOUR</div>
 </div>
 
-
 <div class="mySlides fade">
-  <img src="bondi.jpg" style="width:100%; height:550px;">
-  <div class="text">BONDI</div>
+  <div class="text2">BONDI BEACH</div>
+  <img src="bondib.jpg" style="width:100%; height:550px;">
 </div>
 
-
 <div class="mySlides fade">
+  <div class="text3">WESTFIELD CENTER</div>
   <img src="westfield.jpg" style="width:100%; height:550px;">
-  <div class="text">WESTFIELD CENTER</div>
 </div>
 </div>
-<script type="text/javascript">
 
-var slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-  slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 3000); 
-}
-</script>
 
 <h2>PLACES TO VISIT IN SYDNEY</h2>
 <div class="tekstattraksjoner">
@@ -68,6 +52,24 @@ function showSlides() {
 </div>
 
 <a href="attraksjoner.html" class="button">Read more</a>
+
+<script type="text/javascript">
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); 
+}
+</script>
 
 <div class="footer">
     <center>Designed and developed by Zineb Baazi</center>
